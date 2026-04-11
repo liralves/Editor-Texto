@@ -5,31 +5,16 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "(gdb) Anexação de Pipe",
+            "name": "Rodar Editor",
             "type": "cppdbg",
-            "request": "attach",
-            "program": "/workspaces/Editor-Texto/main.c",
-            "processId": "${command:pickRemoteProcess}",
-            "pipeTransport": {
-                "debuggerPath": "/usr/bin/gdb",
-                "pipeProgram": "/usr/bin/ssh",
-                "pipeArgs": [],
-                "pipeCwd": ""
-            },
+            "request": "launch",
+            "program": "${workspaceFolder}/editor",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "externalConsole": false,
             "MIMode": "gdb",
-            "setupCommands": [
-                {
-                    "description": "Habilitar a reformatação automática para gdb",
-                    "text": "-enable-pretty-printing",
-                    "ignoreFailures": true
-                },
-                {
-                    "description": "Definir Tipo de Desmontagem como Intel",
-                    "text": "-gdb-set disassembly-flavor intel",
-                    "ignoreFailures": true
-                }
-            ]
+            "preLaunchTask": "build editor"
         }
-
     ]
 }
