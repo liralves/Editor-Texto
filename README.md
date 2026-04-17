@@ -29,14 +29,14 @@
 
 ## Sobre o Projeto
 
-O **TextManager** é um editor de texto minimalista de terminal desenvolvido em C como projeto acadêmico de Estruturas de Dados. Em vez de simplesmente implementar os TADs isoladamente, o projeto os combina em um sistema coeso que simula o comportamento real de um editor de texto:
+O **TextManager** é um editor de texto desenvolvido em C como projeto acadêmico de Estruturas de Dados. Em vez de simplesmente implementar os TADs isoladamente, o projeto os combina em um sistema coeso que simula o comportamento real de um editor de texto:
 
 - Frases são **redigidas** e empilhadas (como digitar no editor)
 - Erros são **desfeitos** com pop da pilha (como Ctrl+Z)
 - Frases prontas são **enviadas para salvamento** em uma fila (como uma fila de impressão)
 - Palavras-chave são **gerenciadas em um dicionário** ordenado
 
-O projeto é 100% em C padrão, sem dependências externas, e organizado com separação clara entre interface (`.h`) e implementação (`.c`).
+O projeto é 100% em C, organizado com separação entre interface (`.h`) e implementação (`.c`).
 
 ---
 
