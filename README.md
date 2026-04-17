@@ -1,3 +1,8 @@
+# UNIVERSIDADE CATÓLICA DE PERNAMBUCO
+<p align="center">
+   <img src="http://www1.unicap.br/icam/wp-content/uploads/2019/06/marca_nova.svg" />
+  </p>
+
 # TextManager — Editor de Texto em C
 
 > Um editor de texto de linha de comando implementado em C puro, demonstrando a aplicação prática de três Tipos Abstratos de Dados (TADs) lineares trabalhando em conjunto: **Pilha**, **Fila** e **Lista Duplamente Encadeada**.
